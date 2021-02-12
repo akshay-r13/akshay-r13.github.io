@@ -27,3 +27,33 @@
 .center {
     margin: 0 auto;
 }
+
+
+.grid-container {
+    max-height: 500px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 0.8fr 1.6fr 0.8fr 0.8fr;
+    gap: 0px 0px;
+    grid-template-areas:
+      "banner-header banner-image"
+      "banner-content banner-image"
+      "banner-cta banner-image"
+      "banner-social banner-image";
+  }
+  
+  .banner-header { grid-area: banner-header; }
+  
+  .banner-content { grid-area: banner-content; }
+  
+  .banner-cta { grid-area: banner-cta; }
+  
+  .banner-social { grid-area: banner-social; }
+  
+  .banner-image { grid-area: banner-image; }
+
+#my-pic {
+    max-width: 100%;
+    max-height: 100%;
+}
+  
