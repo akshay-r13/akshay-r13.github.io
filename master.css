@@ -20,6 +20,22 @@
 
 }
 
+* {
+    font-family: 'nunito_sansregular';
+    font-size: 16px;
+}
+
+h1 {
+    font-family: 'mograregular';
+    font-size: 36px;
+}
+
+h2 {
+    font-size: 21px;
+    font-weight: normal;
+    color: #2E2D2D;
+}
+
 .container {
     width:80vw;
 }
@@ -44,7 +60,7 @@
   
   .banner-header { grid-area: banner-header; }
   
-  .banner-content { grid-area: banner-content; }
+  .banner-content { grid-area: banner-content; color: #444444}
   
   .banner-cta { grid-area: banner-cta; }
   
@@ -52,8 +68,11 @@
   
   .banner-image { grid-area: banner-image; }
 
-#my-pic {
+#name-header {
+    font-size: 52px;
+}
+
+  #my-pic {
     max-width: 100%;
     max-height: 100%;
 }
-  
