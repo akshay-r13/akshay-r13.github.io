@@ -13,7 +13,8 @@ body{
 }
 nav{
     height: 6rem;
-    width: 100vw;
+    width: 80vw;
+    margin: 0 auto;
     background-color: transparent;
     display: flex;
     /* position: fixed; */
@@ -123,6 +124,7 @@ nav{
     nav{
         position: fixed;
         z-index: 3;
+        width: 100vw;
     }
     .hamburger{
         display:block;
