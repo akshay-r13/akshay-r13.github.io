@@ -42,10 +42,11 @@ h2 {
 
 .center {
     margin: 0 auto;
+    width: fit-content;
 }
 
 
-.grid-container {
+#grid-container-banner {
     width: 80%;
     margin: 10vh auto;
     min-height: 60vh;
@@ -70,6 +71,43 @@ h2 {
   .banner-social { grid-area: banner-social; }
   
   .banner-image { grid-area: banner-image; }
+
+#grid-container-skills {
+    width: 80%;
+    margin: 10vh auto;
+    min-height: 60vh;
+    max-height: 80vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 0px 15%;
+    grid-template-areas:
+      "scripting-auto backend-engg"
+      "dl-ai devops";
+  }
+  
+  .scripting-auto { grid-area: scripting-auto; }
+  
+  .dl-ai { grid-area: dl-ai; }
+  
+  .backend-engg { grid-area: backend-engg; }
+  
+  .devops { grid-area: devops; }
+  
+
+#grid-container-skill {
+    display: grid;
+    grid-template-columns: 0.5fr 1.5fr;
+    grid-template-rows: 1fr;
+    gap: 0px 0px;
+    grid-template-areas:
+      "grid-logo grid-content";
+  }
+  
+  .grid-logo { grid-area: grid-logo; }
+  
+  .grid-content { grid-area: grid-content; }
+  
 
 #name-header {
     font-size: 52px;
