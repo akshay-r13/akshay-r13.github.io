@@ -45,9 +45,11 @@ h2 {
     width: fit-content;
 }
 
+.grid-container {
+    width: 66%;
+}
 
 #grid-container-banner {
-    width: 80%;
     margin: 10vh auto;
     min-height: 60vh;
     max-height: 80vh;
@@ -73,7 +75,6 @@ h2 {
   .banner-image { grid-area: banner-image; }
 
 #grid-container-skills {
-    width: 80%;
     margin: 10vh auto;
     min-height: 60vh;
     max-height: 80vh;
