@@ -52,7 +52,7 @@ h2 {
     max-height: 80vh;
     display: grid;
     grid-template-columns: 0.8fr 1.2fr;
-    grid-template-rows: 0.8fr 1.6fr 0.8fr 0.8fr;
+    grid-template-rows: min-content min-content min-content min-content;
     gap: 0px 15%;
     grid-template-areas:
       "banner-header banner-image"
@@ -81,9 +81,10 @@ h2 {
 
 .banner-content {
     padding: 20px 0px;
+    font-size: 18px;
 }
 
-  #my-pic {
+#my-pic {
     max-width: 100%;
     max-height: 100%;
 }
@@ -98,4 +99,38 @@ h2 {
     border-radius: 20px;
     color: #ffffff;
     font-weight: bold;
+}
+
+#social-icon-container {
+    height: fit-content;
+    font-size: 0px;
+    display: block;
+    width: fit-content;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+#linkedin-logo {
+    background-color: #0077B5;
+}
+
+#github-logo {
+    background-color: #6E5494;
+}
+
+#twitter-logo {
+    background-color: #1DA1F2;
+}
+
+.social-icon {
+    height: fit-content;
+    display: inline-block;
+    padding: 2px;
+    margin: 0px;
+}
+
+.social-icon > img {
+    padding: 10px;
+    height: 20px;
+    display: block;
 }
