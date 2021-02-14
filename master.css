@@ -183,3 +183,43 @@ h2 {
     height: 20px;
     display: block;
 }
+
+#grid-container-journey {
+    margin: 10vh auto;
+    min-height: 60vh;
+    max-height: 80vh;
+    display: grid;
+    grid-template-columns: 1.4fr 0.2fr 1.4fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-template-areas:
+      "grid-hasura timeline1 empty1"
+      "empty2 timeline2 grid-iit"
+      "grid-zoho timeline3 empty3"
+      "empty4 timeline4 grid-tcs";
+  }
+  
+  .grid-hasura { grid-area: grid-hasura; }
+  
+  .empty1 { grid-area: empty1; }
+  
+  .empty2 { grid-area: empty2; }
+  
+  .grid-iit { grid-area: grid-iit; }
+  
+  .grid-zoho { grid-area: grid-zoho; }
+  
+  .empty3 { grid-area: empty3; }
+  
+  .empty4 { grid-area: empty4; }
+  
+  .grid-tcs { grid-area: grid-tcs; }
+  
+  .timeline1 { grid-area: timeline1; }
+  
+  .timeline2 { grid-area: timeline2; }
+  
+  .timeline3 { grid-area: timeline3; }
+  
+  .timeline4 { grid-area: timeline4; }
+  
