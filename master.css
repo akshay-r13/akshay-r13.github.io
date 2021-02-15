@@ -184,7 +184,7 @@ h2 {
     display: block;
 }
 
-#grid-container-journey {
+#grid-container-journeys {
     margin: 10vh auto;
     min-height: 60vh;
     max-height: 80vh;
@@ -223,3 +223,21 @@ h2 {
   
   .timeline4 { grid-area: timeline4; }
   
+.grid-container-journey {
+    display: grid;
+    grid-template-columns: 0.5fr 1.5fr;
+    grid-template-rows: 0.5fr 0.5fr 2fr;
+    gap: 0px 0px;
+    grid-template-areas:
+      "grid-journey-logo grid-journey-header"
+      "grid-journey-logo grid-journey-subheader"
+      "grid-journey-logo grid-journey-content";
+  }
+  
+  .grid-journey-logo { grid-area: grid-journey-logo; }
+  
+  .grid-journey-header { grid-area: grid-journey-header; }
+  
+  .grid-journey-subheader { grid-area: grid-journey-subheader; }
+  
+  .grid-journey-content { grid-area: grid-journey-content; }  
