@@ -241,3 +241,11 @@ h2 {
   .grid-journey-subheader { grid-area: grid-journey-subheader; }
   
   .grid-journey-content { grid-area: grid-journey-content; }  
+
+.timeline {
+    width: fit-content;
+}
+
+.timeline > img {
+    height: 100%;
+}
