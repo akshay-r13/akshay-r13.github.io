@@ -56,8 +56,9 @@ h2 {
 
 #grid-container-banner {
     margin: 10vh auto;
-    min-height: 60vh;
-    max-height: 80vh;
+    height: fit-content;
+    /* min-height: 60vh;
+    max-height: 80vh; */
     display: grid;
     grid-template-columns: 0.8fr 1.2fr;
     grid-template-rows: min-content min-content min-content min-content;
@@ -263,3 +264,25 @@ h2 {
     font-weight: 400;
     color: gray;
 }
+
+
+@media screen and (max-width: 800px){
+    #grid-container-banner {
+        margin: 10vh auto;
+        height: fit-content;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: min-content min-content min-content min-content min-content min-content min-content min-content;
+        gap: 0px 0px;
+        grid-template-areas:
+          "banner-image"
+          "banner-image"
+          "banner-image"
+          "banner-image"
+          "banner-header"
+          "banner-content"
+          "banner-cta"
+          "banner-social";
+      }
+}
+
