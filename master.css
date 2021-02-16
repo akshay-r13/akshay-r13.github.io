@@ -144,6 +144,7 @@ h2 {
 }
 
 #cta-btn {
+    display: block;
     background-color: #7544C6;
     width: 115px;
     height: 50px;
@@ -264,10 +265,14 @@ h2 {
     color: gray;
 }
 
+.section-header {
+    margin-top: 5rem;
+}
+
 
 @media screen and (max-width: 800px){
     #grid-container-banner {
-        margin: 10vh auto;
+        margin: 2vh auto;
         height: fit-content;
         display: grid;
         grid-template-columns: 1fr;
@@ -284,8 +289,34 @@ h2 {
           "banner-social";
       }
 
+      #my-pic {
+        max-height: 300px;
+        display: block;
+        margin: 20px auto;
+      }
+
+      #name-header {
+        text-align: center;
+      }
+
+      #role-header {
+        text-align: center;
+      }
+
+      .banner-content {
+        text-align: center;
+      }
+
+      #cta-btn {
+        margin: 10px auto;
+      }
+
+      #social-icon-container {
+        margin: 10px auto;
+      }
+
       #grid-container-skills {
-        margin: 10vh auto;
+        margin: 2vh auto;
         display: grid;
         grid-template-columns: 1fr;
         grid-template-rows: min-content min-content min-content min-content;
@@ -298,7 +329,7 @@ h2 {
       }
 
       #grid-container-journeys {
-        margin: 10vh auto;
+        margin: 2vh auto;
         display: grid;
         grid-template-columns: 0.2fr 2.8fr 0fr;
         grid-template-rows: min-content min-content min-content min-content;
