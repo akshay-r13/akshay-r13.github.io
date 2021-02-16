@@ -285,11 +285,22 @@ h2 {
   
   .grid-journey-logo { grid-area: grid-journey-logo; }
   
-  .grid-journey-header { grid-area: grid-journey-header; }
+  .grid-journey-header { 
+      grid-area: grid-journey-header; 
+      position: relative;
+    }
   
   .grid-journey-subheader { grid-area: grid-journey-subheader; }
   
   .grid-journey-content { grid-area: grid-journey-content; }  
+
+  .grid-journey-header > h2 {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
 
 .timeline {
     width: fit-content;
@@ -312,6 +323,10 @@ h2 {
 
 
 @media screen and (max-width: 800px){
+
+    body {
+        padding: 0px 0px 2rem 0px;
+    }
 
     h1 {
         font-size: 21px;
@@ -407,6 +422,26 @@ h2 {
           "timeline3 grid-zoho empty3"
           "timeline4 grid-tcs empty4";
       }
+
+      .grid-journey-logo > img {
+          max-height: 35px;
+      }
+
+
+    .grid-container-journey {
+        display: grid;
+        grid-template-columns: 0.5fr 1.5fr;
+        grid-template-rows: 0.5fr 0.5fr 2fr;
+        gap: 0px 0px;
+        grid-template-areas:
+        "grid-journey-logo grid-journey-header"
+        "grid-journey-subheader grid-journey-subheader"
+        "grid-journey-content grid-journey-content";
+    }
+
+    .timeline {
+        padding: 0px 30px 0px 10px;
+    }
 
 }
 
