@@ -178,18 +178,45 @@ h2 {
     border-radius: 10px;
     overflow: hidden;
     margin: 10px 0px;
+    box-shadow: 0px 8px 15px rgb(0 0 0 / 24%);
+    cursor: pointer;
+    outline: none;
 }
 
 #linkedin-logo {
     background-color: #0077B5;
+    transition: all 0.3s ease 0s;
+}
+
+#linkedin-logo:hover {
+    background-color: #2EE59D;
+    box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+    color: #fff;
+    /* transform: translateY(-7px); */
 }
 
 #github-logo {
     background-color: #6E5494;
+    transition: all 0.3s ease 0s;
+}
+
+#github-logo:hover {
+    background-color: #2EE59D;
+    box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+    color: #fff;
+    /* transform: translateY(-7px); */
 }
 
 #twitter-logo {
     background-color: #1DA1F2;
+    transition: all 0.3s ease 0s;
+}
+
+#twitter-logo:hover {
+    background-color: #2EE59D;
+    box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+    color: #fff;
+    /* transform: translateY(-7px);  */
 }
 
 .social-icon {
