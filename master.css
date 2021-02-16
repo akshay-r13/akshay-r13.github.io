@@ -48,7 +48,7 @@ h2 {
 
 .center {
     margin: 0 auto;
-    width: fit-content;
+    width: fit-content;width: -webkit-fit-content;width: -moz-fit-content;;
 }
 
 .grid-container {
@@ -150,24 +150,24 @@ h2 {
     background-color: #7544C6;
     border: none;
     outline: none;
-    box-shadow: none;
+    -webkit-box-shadow: none ;box-shadow: none;
     border-radius: 20px;
     color: #ffffff;
     font-weight: bold;
     margin: 10px 0px;
     padding: 15px 25px;
-    box-shadow: 0px 8px 15px rgb(0 0 0 / 24%);
+    -webkit-box-shadow: 0px 8px 15px rgb(0 0 0 / 24%) ;box-shadow: 0px 8px 15px rgb(0 0 0 / 24%);
     transition: all 0.3s ease 0s;
     cursor: pointer;
     outline: none;
-    width: fit-content;
+    width: fit-content;width: -webkit-fit-content;width: -moz-fit-content;
     text-decoration: none;
 }
 
 
 #cta-btn:hover {
     background-color: #2EE59D;
-    box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+    -webkit-box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4) ;box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
     /* color: #fff; */
     transform: translateY(-7px);
 }
@@ -177,11 +177,11 @@ h2 {
     height: fit-content;
     font-size: 0px;
     display: block;
-    width: fit-content;
+    width: fit-content;width: -webkit-fit-content;width: -moz-fit-content;;
     border-radius: 10px;
     overflow: hidden;
     margin: 10px 0px;
-    box-shadow: 0px 8px 15px rgb(0 0 0 / 24%);
+    -webkit-box-shadow: 0px 8px 15px rgb(0 0 0 / 24%) ;box-shadow: 0px 8px 15px rgb(0 0 0 / 24%);
     cursor: pointer;
     outline: none;
 }
@@ -193,7 +193,7 @@ h2 {
 
 #linkedin-logo:hover {
     background-color: #2EE59D;
-    box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+    -webkit-box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4) ;box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
     color: #fff;
     /* transform: translateY(-7px); */
 }
@@ -205,7 +205,7 @@ h2 {
 
 #github-logo:hover {
     background-color: #2EE59D;
-    box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+    -webkit-box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4) ;box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
     color: #fff;
     /* transform: translateY(-7px); */
 }
@@ -217,7 +217,7 @@ h2 {
 
 #twitter-logo:hover {
     background-color: #2EE59D;
-    box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+    -webkit-box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4) ;box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
     color: #fff;
     /* transform: translateY(-7px);  */
 }
@@ -310,7 +310,7 @@ h2 {
   }
 
 .timeline {
-    width: fit-content;
+    width: fit-content;width: -webkit-fit-content;width: -moz-fit-content;;
     padding: 0px 30px;
 }
 
