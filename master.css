@@ -160,6 +160,8 @@ h2 {
     transition: all 0.3s ease 0s;
     cursor: pointer;
     outline: none;
+    width: fit-content;
+    text-decoration: none;
 }
 
 

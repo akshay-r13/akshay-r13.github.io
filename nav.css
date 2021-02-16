@@ -97,13 +97,13 @@ body{
     display: block;
     height: 3px;
     width: 0%;
-    background-color: #61DAFB;
+    background-color: #2EE59D;
     position: absolute;
     transition: all ease-in-out 250ms;
-    margin: 0 0 0 10%;
+    margin: 2px 0 0 0;
 }
 .nav-links li a:hover::after{
-    width: 80%;
+    width: 100%;
 }
 
 /*Styling Buttons*/
