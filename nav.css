@@ -42,7 +42,7 @@ body{
 
 /*Styling logo*/
 #navbar-logo{
-    padding:1vh 1vw;
+    margin:1vh 1vw;
     text-align: center;
     font-family: 'mograregular';
 }

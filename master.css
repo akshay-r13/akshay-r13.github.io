@@ -153,6 +153,7 @@ h2 {
     border-radius: 20px;
     color: #ffffff;
     font-weight: bold;
+    margin: 10px 0px;
 }
 
 #social-icon-container {
@@ -162,6 +163,7 @@ h2 {
     width: fit-content;
     border-radius: 10px;
     overflow: hidden;
+    margin: 10px 0px;
 }
 
 #linkedin-logo {
