@@ -296,5 +296,19 @@ h2 {
           "dl-ai"
           "devops";
       }
+
+      #grid-container-journeys {
+        margin: 10vh auto;
+        display: grid;
+        grid-template-columns: 0.2fr 2.8fr 0fr;
+        grid-template-rows: min-content min-content min-content min-content;
+        gap: 0px 0px;
+        grid-template-areas:
+          "timeline1 grid-hasura empty1"
+          "timeline2 grid-iit empty2"
+          "timeline3 grid-zoho empty3"
+          "timeline4 grid-tcs empty4";
+      }
+
 }
 
