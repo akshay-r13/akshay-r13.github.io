@@ -23,6 +23,7 @@
 * {
     font-family: 'nunito_sansregular';
     font-size: 16px;
+    color: #444444;
 }
 
 body {
@@ -103,7 +104,7 @@ h2 {
 
 #grid-container-skill {
     display: grid;
-    grid-template-columns: 0.4fr 1.6fr;
+    grid-template-columns: 0.4fr auto;
     grid-template-rows: 1fr;
     gap: 0px 0px;
     grid-template-areas:
@@ -117,6 +118,7 @@ h2 {
 
 .grid-logo > img {
     height: 50px;
+    margin: 10px 20px 10px 0px;
 }
 
 .grid-content > h2 {
@@ -146,8 +148,6 @@ h2 {
 #cta-btn {
     display: block;
     background-color: #7544C6;
-    width: 115px;
-    height: 50px;
     border: none;
     outline: none;
     box-shadow: none;
@@ -155,6 +155,7 @@ h2 {
     color: #ffffff;
     font-weight: bold;
     margin: 10px 0px;
+    padding: 15px 25px;
     box-shadow: 0px 8px 15px rgb(0 0 0 / 24%);
     transition: all 0.3s ease 0s;
     cursor: pointer;
@@ -311,6 +312,24 @@ h2 {
 
 
 @media screen and (max-width: 800px){
+
+    h1 {
+        font-size: 21px;
+    }
+    
+    h2 {
+        font-size: 18px;
+    }
+
+    .grid-container {
+        width: 80%;
+    }    
+    
+    .grid-logo > img {
+        height: 35px;
+        margin: 10px 20px 10px 0px;
+    }
+
     #grid-container-banner {
         margin: 2vh auto;
         height: fit-content;
@@ -336,6 +355,7 @@ h2 {
       }
 
       #name-header {
+        font-size: 44px;
         text-align: center;
       }
 
@@ -344,15 +364,22 @@ h2 {
       }
 
       .banner-content {
+        padding: 15px 0px;
+        font-size: 16px;
         text-align: center;
       }
 
       #cta-btn {
         margin: 10px auto;
+        padding: 15px 25px;
       }
 
       #social-icon-container {
         margin: 10px auto;
+      }
+
+      #grid-container-skill {
+        grid-template-columns: 0.2fr auto;
       }
 
       #grid-container-skills {
