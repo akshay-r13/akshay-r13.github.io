@@ -284,6 +284,11 @@ h2 {
   }
   
   .grid-journey-logo { grid-area: grid-journey-logo; }
+
+  .grid-journey-logo > img {
+        float: right;
+        margin-right: 20px;
+  }
   
   .grid-journey-header { 
       grid-area: grid-journey-header; 
@@ -305,6 +310,10 @@ h2 {
 .timeline {
     width: fit-content;
     padding: 0px 30px;
+}
+
+.timeline > .center {
+    height: 100%;
 }
 
 .timeline > .center > img {
@@ -430,7 +439,6 @@ h2 {
 
     .grid-container-journey {
         display: grid;
-        grid-template-columns: 0.5fr 1.5fr;
         grid-template-rows: 0.5fr 0.5fr 2fr;
         gap: 0px 0px;
         grid-template-areas:
