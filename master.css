@@ -82,8 +82,7 @@ h2 {
 
 #grid-container-skills {
     margin: 10vh auto;
-    min-height: 60vh;
-    max-height: 80vh;
+    height: fit-content;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
@@ -283,6 +282,19 @@ h2 {
           "banner-content"
           "banner-cta"
           "banner-social";
+      }
+
+      #grid-container-skills {
+        margin: 10vh auto;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: min-content min-content min-content min-content;
+        gap: 3rem 0px;
+        grid-template-areas:
+          "scripting-auto"
+          "backend-engg"
+          "dl-ai"
+          "devops";
       }
 }
 
