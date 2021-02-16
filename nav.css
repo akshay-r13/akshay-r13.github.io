@@ -13,11 +13,10 @@ body{
     padding-top: 10vh;
 }
 #navbar{
-    height: 6rem;
+    height: 5rem;
     width: 80vw;
     padding: 0 10vw;
     margin: 0 auto;
-    background-color: transparent;
     display: flex;
     /* position: fixed; */
     z-index: 10;
@@ -47,6 +46,15 @@ body{
     text-align: center;
     font-family: 'mograregular';
 }
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: white;
+  }
+
+
 .logo img {
     height: 5rem;
     width: 5rem;
@@ -158,7 +166,7 @@ body{
     }
     .nav-links{
         justify-content: space-evenly;
-        position: fixed;
+        /* position: fixed; */
         background: #131418;
         height: 100vh;
         width: 100%;
